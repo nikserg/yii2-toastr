@@ -54,7 +54,7 @@ class NotificationBase extends Widget
         $this->title = is_string($this->title) ? Html::encode($this->title) : null;
 
         $this->message = ($this->message) ?
-            Html::encode($this->message) : Html::encode($this->messageDefault);
+            $this->message : Html::encode($this->messageDefault);
 
         $this->options = is_array($this->options) ?
             Json::encode($this->options) : Json::encode([]);
