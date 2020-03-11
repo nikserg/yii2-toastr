@@ -1,5 +1,5 @@
 {
-  "name": "lavrentiev/yii2-toastr",
+  "name": "nikserg/yii2-toastr",
   "description": "Simple javascript toast notifications",
   "keywords": ["yii2", "extension", "jquery", "toastr", "notification"],
   "type": "yii2-extension",
@@ -28,7 +28,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "lavrentiev\\widgets\\toastr\\": "src"
+      "nikserg\\widgets\\toastr\\": "src"
     }
   }
 }
